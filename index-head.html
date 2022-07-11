@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quantum Mirror - Sample Photos - Nicholas Sherlock × DALL·E 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="https://sherlock-photography.github.io/quantum-mirror-gallery/images/social.png" />
+    <meta property="og:title" content="Quantum Mirror - Sample Photos" />
+    <meta property="og:description" content="Nicholas Sherlock × DALL·E 2 AI" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://sherlock-photography.github.io/quantum-mirror-gallery/images/social.png" />
+    <meta name="twitter:title" content="Quantum Mirror - Sample Photos" />
+    <meta name="twitter:description" content="Nicholas Sherlock × DALL·E 2 AI" />
+
+    <script src="node_modules/photoswipe/dist/umd/photoswipe.umd.min.js"></script>
+    <script src="node_modules/photoswipe/dist/umd/photoswipe-lightbox.umd.min.js"></script>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/photoswipe/dist/photoswipe.css">
+
+    <style>
+        @font-face {
+            font-family: "Roboto";
+            font-style: normal;
+            font-display: swap;
+            src: url("Roboto-Regular.ttf") format("woff2");
+        }
+        :root {
+            --bs-body-bg: #fdfbfb;
+            --bs-font-sans-serif: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .logo-icon {
+            height: 1em;
+            width: auto;
+            top: -3px;
+            position: relative;
+            margin: 0 0.1em;
+        }
+        .logo-banner {
+            width: 100%;
+            max-width:1024px;
+            height:auto;
+        }
+        .gallery-container {
+            max-width:1200px;
+        }
+        .gallery {
+            grid-gap: 12px;
+            display: grid;
+            grid-template-columns: 1fr .5fr .5fr;
+            width: 100%;
+        }
+        figure {
+            display: block;
+            margin: 0;
+            padding: 0;
+            position:relative;
+        }
+        figure img {
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            top: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        figure.original::before {
+            content:"Original";
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            color:white;
+            background-color:black;
+            padding:4px;
+            text-align:center;
+        }
+
+        @media (max-width: 576px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <div class="px-4 py-5 mt-1 mb-4 text-center gallery-container container">
+        <img class="d-block mx-auto mb-4 logo-banner" src="images/banner.jpg" alt="Quantum Mirror" title="Quantum Mirror" width="2048" height="1024">
+        <h1 class="display-5 fw-bold mb-4">Quantum Mirror <img src="images/logo-icon.svg" class="logo-icon"> Sample Gallery</h1>
+        <div class="col-md-12">
+            <p class="lead mb-5">
+                Created by <a style="white-space: nowrap" href="https://twitter.com/thenickdude1">Nicholas Sherlock</a> and
+                <a style="white-space: nowrap" href="https://openai.com/dall-e-2/">DALL·E 2 by OpenAI</a>
+            </p>
+            <p>
+                <a href="https://github.com/Sherlock-Photography/QuantumMirror">Quantum Mirror</a> is an app I created
+                for Sony mirrorless cameras that allows me to use my camera to peer into parallel universes.
+            </p>
+            <p>
+                My photos are sent to the DALL·E AI as I take them, which dreams up new versions of them, revealing a
+                world-that-might-have-been.
+            </p>
+            <p>
+                Join me on a photowalk through an alternate-reality version of Dunedin, New Zealand.
+            </p>
+            <p>
+                Sony A7R + Canon FD 35mm TS SSC / Laowa 85mm Macro
+            </p>
+        </div>
+    </div>

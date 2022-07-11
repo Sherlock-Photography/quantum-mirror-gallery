@@ -1,0 +1,11 @@
+{
+  "name": "quantum-mirror-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nicholas Sherlock",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "photoswipe": "^5.2.8"
+  }
+}
